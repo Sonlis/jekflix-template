@@ -59,8 +59,10 @@ exclude: [
   'Gemfile',
   'Gemfile.lock',
   'gulpfile.js',
-  'README.md'
+  'README.md',
+  'Dockerfile',
+  'default.conf'
 ]
 
 # Theme
-version: v3.1.0
+version: v1.0

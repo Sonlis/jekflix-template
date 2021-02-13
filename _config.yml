@@ -1,14 +1,14 @@
 # Site Settings
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+name: Bastincloud
+title: Bastincloud | kubernetes on raspberries
+description: A blog where I write about my journey bootstrapping and maintaining a 
+ kubernetes cluster on raspberries PI using talos.
 tags:
   - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
+  - raspberry
+  - kubernetes
+  - bare-metal
+  - on-premise
 show_hero: true
 menu:
   - title: Home
@@ -17,20 +17,15 @@ menu:
     url: /about
   - title: Contact
     url: /contact
-  - title: Feed
-    url: /feed.xml
-email: youremail@test.com
-disqus_username: disqus_username
+email: bastien.jeannelle@gmail.com
+disqus_username: None
 
 
 # Social Media Settings
 # Remove the item if you don't need it
-github_username: github_username
-facebook_username: facebook_username
-twitter_username: twitter_username
-instagram_username: instagram_username
-linkedin_username: linkedin_username
-medium_username: medium_username
+github_username: Sonlis
+linkedin_username: bastien-jeannelle-440110164
+medium_username: bastien.jeannelle
 
 
 # Posts Settings
@@ -41,8 +36,8 @@ two_columns_layout: true
 
 
 # Advanced Settings
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+baseurl: '' # the subpath of your site, e.g. /blog
+url: "https://blog.bastincloud.com" # the base hostname & protocol for your site
 google_analytics: "UA-XXXXXXXX-X"
 language: "en"
 categories_folder: category
@@ -97,8 +92,10 @@ exclude: [
   'Gemfile',
   'Gemfile.lock',
   'gulpfile.js',
-  'README.md'
+  'README.md',
+  'Dockerfile',
+  'default.conf'
 ]
 
 # Theme
-version: v3.1.0
+version: v1.0

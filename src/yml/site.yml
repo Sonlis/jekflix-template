@@ -1,13 +1,13 @@
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+name: Bastincloud
+title: Bastincloud | kubernetes on raspberries
+description: A blog where I write about my journey bootstrapping and maintaining a 
+ kubernetes cluster on raspberries PI using talos.
 tags:
   - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
+  - raspberry
+  - kubernetes
+  - bare-metal
+  - on-premise
 show_hero: true
 menu:
   - title: Home
@@ -16,7 +16,5 @@ menu:
     url: /about
   - title: Contact
     url: /contact
-  - title: Feed
-    url: /feed.xml
-email: youremail@test.com
-disqus_username: disqus_username
+email: bastien.jeannelle@gmail.com
+disqus_username: None
